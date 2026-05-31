@@ -1410,6 +1410,155 @@ h6 {
 }
 
 
+/* Project Notes */
+
+.project-notes {
+  padding: 96px 0;
+  background-color: var(--color-bg-light);
+}
+
+.project-notes-container {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  gap: var(--spacing-88);
+}
+
+.project-notes-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project-notes-header {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-12);
+  margin-bottom: var(--spacing-20);
+}
+
+.project-notes-icon {
+  width: 40px;
+  height: auto;
+}
+
+.project-notes-title {
+  color: #1F7A6E;
+}
+
+.project-notes-description {
+  max-width: 460px;
+  line-height: 28px;
+  margin-bottom: var(--spacing-36);
+}
+
+.project-tech-stack {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-12);
+  margin-bottom: var(--spacing-32);
+}
+
+.code-icon {
+  width: 48px;
+  height: auto;
+}
+
+.project-tech-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--spacing-4);
+}
+
+.project-tech-label {
+  color: #1F7A6E;
+}
+
+.tech-tags {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-8);
+}
+
+.tech-tag {
+  color: #000000;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.tech-divider {
+  color: #1F7A6E;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.project-source-link {
+  align-self: flex-start;
+  text-decoration: none;
+  background-color: #1F7A6E;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-8);
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-source-link:hover {
+  transform: rotate(-2deg) translateY(-4px);
+
+  box-shadow:
+    0 16px 32px rgba(31, 122, 110, 0.25);
+}
+
+
+.project-highlights {
+  width: 100%;
+  max-width: 560px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px 20px;
+  align-items: start;
+}
+
+.highlight-card {
+  height: auto;
+  display: flex;
+  padding: 16px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 24px;
+  gap: var(--spacing-12);
+  box-shadow:
+    0 4px 12px rgba(15, 23, 42, 0.04),
+    0 2px 4px rgba(15, 23, 42, 0.03);
+
+}
+
+.highlight-icon {
+  height: 40px;
+  width: 40px;
+}
+
+.highlight-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-4);
+}
+
+.highlight-description {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+
 /* Footer Section */
 
 .footer {
@@ -1919,6 +2068,27 @@ h6 {
   }
 
 
+  /* Project Notes */
+
+  .project-notes {
+    padding: 80px 0;
+  }
+
+  .project-notes-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+  }
+
+  .project-notes-description {
+    max-width: 100%;
+  }
+
+  .project-highlights {
+    max-width: 100%;
+  }
+
+
   /* Footer */
 
   .footer {
@@ -2195,6 +2365,26 @@ h6 {
 
   .cta-buttons {
     gap: 16px;
+  }
+
+
+  /* Project Notes */
+
+  .project-notes {
+    padding: 72px 0;
+  }
+
+  .project-highlights {
+    gap: 16px;
+  }
+
+  .highlight-card {
+    padding: 14px;
+    border-radius: 20px;
+  }
+
+  .project-notes-description {
+    margin-bottom: 32px;
   }
 
 
@@ -2560,6 +2750,34 @@ h6 {
   }
 
 
+  /* Project Notes */
+
+  .project-notes {
+    padding: 56px 0;
+  }
+
+  .project-notes-header {
+    margin-bottom: 16px;
+  }
+
+  .project-notes-icon {
+    width: 32px;
+  }
+
+  .project-highlights {
+    grid-template-columns: 1fr;
+  }
+
+  .highlight-card {
+    padding: 16px;
+  }
+
+  .project-source-link {
+    width: 100%;
+    justify-content: center;
+  }
+
+
   /* Footer */
 
   .footer {
@@ -2893,6 +3111,35 @@ h6 {
 
   .cta-supporting-text {
     margin-bottom: 16px;
+  }
+
+
+  /* Project Notes */
+
+  .project-notes {
+    padding: 48px 0;
+  }
+
+  .project-notes-container {
+    gap: 40px;
+  }
+
+  .project-tech-stack {
+    margin-bottom: 24px;
+  }
+
+  .highlight-card {
+    gap: 10px;
+  }
+
+  .highlight-title {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .highlight-description {
+    font-size: 13px;
+    line-height: 18px;
   }
 
 
